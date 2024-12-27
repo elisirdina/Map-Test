@@ -10,7 +10,7 @@ function initMap() {
         map: map,
         label: "A",
         title: "New Delhi",
-        draggeable: false,
+        draggable: false,
         animation: google.maps.Animation.DROP
     });
 }

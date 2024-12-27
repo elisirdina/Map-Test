@@ -14,3 +14,5 @@ function initMap() {
         animation: google.maps.Animation.DROP
     });
 }
+
+window.initMap = initMap;

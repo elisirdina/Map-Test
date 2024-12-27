@@ -5,13 +5,11 @@ function initMap() {
         zoom: 8,
         mapTypeId: "terrain"
     });
-    new google.maps.Marker({
+    const marker = new google.maps.marker.AdvancedMarkerElement({
         position: { lat: 28.70, lng: 77.10 },
         map: map,
-        label: "A",
         title: "New Delhi",
         draggable: false,
-        animation: google.maps.Animation.DROP
     });
 }
 

@@ -11,6 +11,9 @@ function initMap() {
         title: "New Delhi",
         draggable: false,
     });
-}
 
-window.initMap = initMap;
+    const infoWindow = new google.maps.InfoWindow({
+        content: "<p>This is an info window</p>"
+    });
+    infoWindow.open(map, marker);
+}
